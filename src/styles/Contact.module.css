@@ -1,0 +1,37 @@
+.contactSection {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contactText {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contactItem {
+    text-align: center;
+  }
+  
+  .contact-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  .contactInfo {
+    margin-top: 20px;
+  }
+  
+  .contactInfo ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contactInfo li {
+    margin-bottom: 10px;
+  }

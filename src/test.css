@@ -1,0 +1,145 @@
+.place-order-container {
+    text-align: start !important;
+}
+
+.place-order-container h1 {
+    margin-bottom: 20px;
+}
+
+.shipping-address,
+.payment-method,
+.order-items,
+.order-summary {
+    /* margin-top:60px ; */
+    /* margin-bottom: 20px; */
+    padding:5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+.order-summary {
+    margin-top:60px ;
+}
+.shipping-address h3,
+.payment-method h3,
+.order-items h3,
+.order-summary h3 {
+    margin-top: 0;
+}
+
+.order-items table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-items th,
+.order-items td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-items th {
+    background-color: #f2f2f2;
+}
+
+.order-item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.order-summary p {
+    margin: 5px 0;
+}
+
+.place-order-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.place-order-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .place-order-container {
+        padding: 10px;
+    }
+
+    .shipping-address,
+    .payment-method,
+    .order-items,
+    .order-summary {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .order-items th,
+    .order-items td {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .order-item-image {
+        width: 40px;
+        height: 40px;
+    }
+}
+/* OrderProgress related */
+.order-progress {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.step-circle.completed {
+    background-color: #ffc107; /* Or your desired completed color */
+    color: white;
+}
+
+.step-circle.current {
+    background-color: white; /* Or your desired current step color */
+    color: black;
+    border: 2px solid #ffc107; /* Add a border to highlight */
+}
+
+.step-label {
+    font-size: 0.9em;
+}
+
+.step-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 0 10px;
+}

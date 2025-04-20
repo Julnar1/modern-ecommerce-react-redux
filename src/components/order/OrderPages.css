@@ -1,0 +1,249 @@
+/* Order Progress */
+.order-progress {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.steps-container {
+    display: flex;
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.step-circle.completed {
+    background-color: #ffc107;
+    color: white;
+}
+
+.step-circle.current {
+    background-color: white;
+    color: black;
+    border: 2px solid #ffc107;
+}
+
+.step-label {
+    font-size: 0.9em;
+}
+
+.step-line {
+    border: none;
+    border-top: 2px solid #ddd;
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+/* Order Summary */
+.order-summary {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.order-summary h3 {
+    margin-top: 0;
+}
+
+.order-summary p {
+    margin: 5px 0;
+}
+
+.place-order-button {
+    background-color: #ffa500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.place-order-button:hover {
+    background-color: #ff8c00;
+}
+
+/* Order Items */
+.order-items {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.order-items h3 {
+    margin-top: 0;
+}
+
+.order-items table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-items th,
+.order-items td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-items th {
+    background-color: #f2f2f2;
+}
+
+.order-item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Shipping Address and Payment Method */
+.shipping-address,
+.payment-method {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+.shipping-address h3,
+.payment-method h3 {
+    margin-top: 0;
+}
+
+.status {
+    font-weight: bold;
+    color: red;
+}
+
+/* Place Order Page and Order Confirmation Page */
+.place-order-container,
+.order-confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: start !important;
+}
+
+.place-order-container h1,
+.order-confirmation-container h2 {
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .place-order-container,
+    .order-confirmation-container {
+        padding: 10px;
+    }
+
+    .order-items th,
+    .order-items td {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .order-item-image {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Add to OrderPages.css */
+
+.confirmation-dialog {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary-preview {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.confirmation-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.order-success-message {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.success-icon {
+  font-size: 3rem;
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+.continue-shopping {
+  margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff8c00;
+}
+
+.btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #e0e0e0;
+}

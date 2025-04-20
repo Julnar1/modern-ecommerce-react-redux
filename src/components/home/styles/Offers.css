@@ -1,0 +1,9 @@
+.offer-container {
+    display: flex; 
+  }
+  
+  .offer-item {
+    flex: 0 0 auto; 
+    width: 18rem; 
+    margin-right: 1.5rem; 
+  }

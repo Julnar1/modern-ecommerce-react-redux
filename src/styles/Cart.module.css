@@ -1,0 +1,35 @@
+/* Cart Totals Styling */
+.cartTotals {
+    background-color: #f8f8f8;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cartTotals h3 {
+    margin-bottom: 15px;
+}
+
+.cartTotals .subtotal,
+.cartTotals .shipping,
+.cartTotals .total {
+    margin-bottom: 10px;
+}
+
+.checkoutBtn {
+    display: block;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius:10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.checkoutBtn:hover {
+    background-color: #ff8c00;
+}
+.checkoutBtnContainer {
+    display: flex; 
+    justify-content: center; 
+    margin-bottom : 10px; 
+} 

@@ -1,0 +1,12 @@
+.search-button,.search-button:hover,.search-button:active{
+    background-color: #edc072;
+    color:black;
+}
+.nav-item .badge-header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 2px 3px;
+    border-radius: 50%;
+    background-color: rgb(209, 137, 4);
+  }
