@@ -92,11 +92,11 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📝 License
 
-© 2024 Julnar Nabeel. All rights reserved.
+© 2025 Julnar Nabeel. All rights reserved.
 
 ## 👤 Author
 
-Junar Nabeel
+Julnar Nabeel
 - GitHub: [@Julnar1](https://github.com/Julnar1)
 - LinkedIn: [Julnar Nabeel](https://www.linkedin.com/in/julnar-nabeel/)
 
