@@ -15,7 +15,9 @@ A full-featured e-commerce application built with React, Redux, and Bootstrap. T
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-vercel-deployment-url.vercel.app)
+[View Live Demo](https://modern-ecommerce-react-redux.vercel.app/)
+
+The application is deployed on Vercel and automatically updates with each push to the main branch.
 
 ## 🛠️ Technologies Used
 
